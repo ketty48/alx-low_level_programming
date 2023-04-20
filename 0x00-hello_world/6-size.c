@@ -1,7 +1,10 @@
 #include <stdio.h>
 
-/*
- * main -Entry point
+/**
+ * main - Entry point of the program
+ *
+ * This function is the entry point of the program.
+ * It prints the size of various data types in bytes.
  *
  * Return: Always 0 (Success)
  */
