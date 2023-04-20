@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /*
- * main - Entry point
- *
+ * You should produce the exact same output as in the example
+ * Warnings are allowed
+ * 
  * Return: Always 0 (Success)
  */
 int main(void)
