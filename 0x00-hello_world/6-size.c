@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /*
- * You should produce the exact same output as in the example
- * Warnings are allowed
+ *main -Entry point
  * 
- * Return: Always 0 (Success)
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
