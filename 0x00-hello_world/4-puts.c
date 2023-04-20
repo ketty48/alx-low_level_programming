@@ -1,5 +1,5 @@
  #include <stdio.h>
-
+ 
  /**
  * main - Entry point of the program
  *
@@ -7,7 +7,10 @@
  */
  int main(void)
  {
-        puts("\"Programming is like building a multilingual puzzle");
-        return (0);
+    /* Print the required string using puts */
+    puts("Programming is like building a multilingual puzzle");
+
+    /* Return 0 to indicate successful completion */
+     return (0);
  }
 
