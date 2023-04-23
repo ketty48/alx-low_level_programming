@@ -14,20 +14,21 @@
 int main(void)
 {
 int n;
+
 srand(time(0));
 n = rand() - RAND_MAX /2;
 
 if (n > 0)
 {
-printf("%i is Positive\n", n);
+printf("%d is Positive\n", n);
 }
 else if (n == 0)
 {
-printf("%i is Zero\n", n);
+printf("%d is Zero\n", n);
 }
 else
 {
-printf("%i is Negative\n", n);
+printf("%d is Negative\n", n);
 }
 return (0);
 }
