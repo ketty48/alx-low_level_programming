@@ -6,24 +6,18 @@
  */
 int main(void)
 {
-int c = 0;
-int f_d;
-int m_d;
-int l_d;
+int c;
+int d = 0;
 
-while (c <= 99)
+
+while (d < 10)
 {
-f_d = (c / 100 + '0');
-m_d = (c / 10 % 10 + '0');
-l_d = (c %10 + '0');
-
-if ((f_d <= m_d) && (m_d <= l_d))
+if (d != c && d < c)
 {
-putchar(f_d);
-putchar(m_d);
-putchar(l_d);
+putchar('0' + d);
+putchar('0' + c);
 
-if (c != 89)
+if (c != 17)
 {
 putchar(',');
 putchar(' ');
